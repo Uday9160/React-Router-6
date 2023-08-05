@@ -1,15 +1,12 @@
 import React from "react";
+import aboutImg from "../assets/images/about-hero.png";
 
 const About = () => {
   return (
     <div>
-      <h1>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe neque
-        fugiat ut obcaecati in. Voluptas, fugit illo harum molestias debitis
-        maiores necessitatibus porro minima quam sunt id nobis qui sit quisquam
-        tempore hic consequatur, deleniti ipsum suscipit molestiae veniam atque.
-        Culpa a magni labore qui? Eius modi repudiandae adipisci. Ullam.
-      </h1>
+      <h1>About Component</h1>
+      <img src={aboutImg} alt="about" />
+      <h2>wvgwdvbjwc hsgcshc wfcvchwskc acscbsnv agcsjkvjkn</h2>
     </div>
   );
 };
